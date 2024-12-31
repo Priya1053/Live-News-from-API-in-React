@@ -10,7 +10,7 @@ import { Container,Row,Col,Card } from "react-bootstrap";
         .then((json)=>{
             setData(json.data.articles)
         });
-    };
+    }; 
 
     useEffect(()=>{
         api();
